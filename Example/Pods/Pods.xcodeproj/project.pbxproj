@@ -7,26 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F696B19A90BED3BDC7E7F2D40AB38CB /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE57ED622C28CA6DC998CFEFBB099087 /* ic_like@2x.png */; };
-		4C3F6E723914A41A0D6517199D298DAF /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = AF7B97135FFD3D837C5BD16C26F03C50 /* overlay_skip.png */; };
-		560897DE14D12DBAD00B92352164FECA /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8D63E0E40931A00452E5419F0DD2D7 /* overlay_like.png */; };
-		68D08965ABF88C4C55B77CAF785EB36A /* TinderSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F2107CFBB700D7D2F578DB39D607096F /* TinderSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74D19C51691D4072A71A083ED5AE2D22 /* TinderSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 515ACA6F7F23D5032A70557343BCD825 /* TinderSwipeView-dummy.m */; };
-		75D958AFCED69EA3F12FABAF27748C14 /* Pods-TinderSwipeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1772F399A2ED0A2E3D36AC0545C07641 /* Pods-TinderSwipeView_Example-dummy.m */; };
-		83AEB55D9925A4506442E30B788EC5D7 /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4484B62634BAA76E1005A24B42675458 /* TinderCard.swift */; };
-		921666577A05523915C92136AA1012C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		98DC16644C6CCBCBF907D2DCE59515AA /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7C1FB07F5F80667BC70D0F930323D06 /* ic_skip@2x.png */; };
-		B67CA33C67B3F709268A81CEBCEF3A70 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A564C1F34322EF9182E5D9EB477C30F1 /* ic_skip@3x.png */; };
-		BBDC7CDEF1E01DA79801E13EF73AFF34 /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C13CC0B68663828615E1D335DB4D6E3 /* TinderSwipeView.swift */; };
-		C6A6F0841837788F7F0ED31C5C694668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C942DF9F8FAB011E0A84F7ECD0768766 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6700175C7EA9BFE5CA93636939DFCE94 /* overlay_skip@3x.png */; };
-		CBA6968A1E1081358C147FCAF3CB1267 /* Pods-TinderSwipeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD05525ADEAD2914A7610EB3E046BC4 /* Pods-TinderSwipeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7973FE780FB2B4DC9ECFA093C5FF870 /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAF5AA08B3DA5A428505D5ECA7A4325 /* ic_like@3x.png */; };
-		EE6618620B0FC17B4ED547561D817037 /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 69FC83C14A4A95CF63C43AEE12A5094D /* overlay_like@3x.png */; };
+		060F75B843F7661822A0DDBE159BB119 /* Pods-TinderSwipeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1772F399A2ED0A2E3D36AC0545C07641 /* Pods-TinderSwipeView_Example-dummy.m */; };
+		07BD0877D28A0DE81132E605B29630A5 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DBBC4A4A03054CF51C12D111241FC /* overlay_like.png */; };
+		0BE4A49831AD2F2C289632F67BC175BD /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7061DF226FEB412E599221B26C267D4A /* overlay_like@3x.png */; };
+		0CEB13819016E9AA2C4B4CA8B04ADA86 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44ED027BEAA9E216B53B940B51ABE15 /* ic_skip@3x.png */; };
+		0D5A14B3D3D829414D3690D070147A3B /* TinderSwipeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 221B57EDDA922027E7553D4BB924060A /* TinderSwipeView-dummy.m */; };
+		100383DD2577706C52052ABB996F55D8 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF1515CE279846D074AE0E99C97E8 /* overlay_skip@3x.png */; };
+		10A1CCF9A671ED50692D5FBEB358FAA8 /* TinderSwipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F61C035193EDEAD79DEFC55B3B55A425 /* TinderSwipeView.swift */; };
+		2706180AEDA8739760D9DEC32FB07745 /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = F444C5C9A01F1C79F847BF74A120951B /* overlay_skip.png */; };
+		27E8982E0F1213FB0882F083D802FA18 /* ic_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B44ED027BEAA9E216B53B940B51ABE15 /* ic_skip@3x.png */; };
+		3462D5F4F910F21FB102D296B2ED3CC2 /* overlay_like.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E8DBBC4A4A03054CF51C12D111241FC /* overlay_like.png */; };
+		4FE6013D113B3B430094891A4F6BF9C0 /* overlay_skip@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65BCF1515CE279846D074AE0E99C97E8 /* overlay_skip@3x.png */; };
+		62436CC0636633CE5C9CB30C5554CA6C /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99F71D7CA2D573334D5518BA7C07557 /* ic_like@3x.png */; };
+		6C33A70B1474FED92504492E2172B7E1 /* TinderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAC215AFD8383A3C4953652BC06BC8D /* TinderCard.swift */; };
+		6ED3EF3E027C05CC715EAFC02C095959 /* TinderSwipeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6292AD2991963542CDADD3B083E27E2F /* TinderSwipeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		724AC2EB9562CEE185C671B1FBFE62FC /* TinderSwipeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */; };
+		75CC1BCB4A5F6FB95BE0D26EB4A6019A /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85923C5F6C234CFA07FDD3D67C8DD1C /* ic_like@2x.png */; };
+		99D2C9B16F08783C9517FB32E50623C4 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B1676DA4262DB86FB17EB2F1FE4DA3 /* ic_skip@2x.png */; };
+		A6422CD7BB7F0F111F158D7C51A2242F /* Pods-TinderSwipeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD05525ADEAD2914A7610EB3E046BC4 /* Pods-TinderSwipeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B815F5E6C539C96555C4149B709FB635 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C4541DDA77E52245B7482B0587BABED5 /* ic_skip@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27B1676DA4262DB86FB17EB2F1FE4DA3 /* ic_skip@2x.png */; };
+		D3DFD05F7CF48108E791D06160C0F243 /* ic_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D85923C5F6C234CFA07FDD3D67C8DD1C /* ic_like@2x.png */; };
+		D72040510364650AC48E9274F8218498 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E12593659213819C150064D23C38541D /* overlay_skip.png in Resources */ = {isa = PBXBuildFile; fileRef = F444C5C9A01F1C79F847BF74A120951B /* overlay_skip.png */; };
+		F5B74A4F68DE5F32EC71030B5F16D13E /* overlay_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7061DF226FEB412E599221B26C267D4A /* overlay_like@3x.png */; };
+		FED951C0887781661FA7D3C207D43731 /* ic_like@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B99F71D7CA2D573334D5518BA7C07557 /* ic_like@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		256EEA5007A97C2D102E2F228C4074EF /* PBXContainerItemProxy */ = {
+		0A0B5ABB50F9D3B449D5E1CB1FCC8221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48CF6737F3CCFB614C0F0807088B2AF8;
+			remoteInfo = "TinderSwipeView-TinderSwipeView";
+		};
+		A23AA8C647028E774A673F0ED37C2261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -36,104 +52,114 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0230162D36E81473324D61DC35972EA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1772F399A2ED0A2E3D36AC0545C07641 /* Pods-TinderSwipeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TinderSwipeView_Example-dummy.m"; sourceTree = "<group>"; };
-		1B41B8B517DAB3CC5A0004E8A37183BB /* TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
+		1CAC215AFD8383A3C4953652BC06BC8D /* TinderCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderCard.swift; path = TinderSwipeView/Classes/TinderCard.swift; sourceTree = "<group>"; };
+		20261C18A0AFB0AAD32E011C1CD03414 /* Pods_TinderSwipeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TinderSwipeView_Example.framework; path = "Pods-TinderSwipeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		221B57EDDA922027E7553D4BB924060A /* TinderSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinderSwipeView-dummy.m"; sourceTree = "<group>"; };
+		27B1676DA4262DB86FB17EB2F1FE4DA3 /* ic_skip@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@2x.png"; path = "TinderSwipeView/Resources/ic_skip@2x.png"; sourceTree = "<group>"; };
+		3115EFF4D513BAE199EA9E38F2E0A38D /* TinderSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinderSwipeView.modulemap; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		39BEF1014A1E457E647FE8F8E318000E /* Pods-TinderSwipeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TinderSwipeView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		4484B62634BAA76E1005A24B42675458 /* TinderCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderCard.swift; path = TinderSwipeView/Classes/TinderCard.swift; sourceTree = "<group>"; };
-		515ACA6F7F23D5032A70557343BCD825 /* TinderSwipeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TinderSwipeView-dummy.m"; sourceTree = "<group>"; };
+		3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.xcconfig; sourceTree = "<group>"; };
+		3E8DBBC4A4A03054CF51C12D111241FC /* overlay_like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_like.png; path = TinderSwipeView/Resources/overlay_like.png; sourceTree = "<group>"; };
 		59EDC8FCC98D905B85266898DA58BAFF /* Pods-TinderSwipeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderSwipeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5C13CC0B68663828615E1D335DB4D6E3 /* TinderSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderSwipeView.swift; path = TinderSwipeView/Classes/TinderSwipeView.swift; sourceTree = "<group>"; };
-		5C8D63E0E40931A00452E5419F0DD2D7 /* overlay_like.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_like.png; path = TinderSwipeView/Resources/overlay_like.png; sourceTree = "<group>"; };
-		6700175C7EA9BFE5CA93636939DFCE94 /* overlay_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_skip@3x.png"; path = "TinderSwipeView/Resources/overlay_skip@3x.png"; sourceTree = "<group>"; };
-		69FC83C14A4A95CF63C43AEE12A5094D /* overlay_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_like@3x.png"; path = "TinderSwipeView/Resources/overlay_like@3x.png"; sourceTree = "<group>"; };
+		5BA36450AD0DE4CDC289207116FA54EA /* TinderSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TinderSwipeView.bundle; path = "TinderSwipeView-TinderSwipeView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6292AD2991963542CDADD3B083E27E2F /* TinderSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-umbrella.h"; sourceTree = "<group>"; };
+		65BCF1515CE279846D074AE0E99C97E8 /* overlay_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_skip@3x.png"; path = "TinderSwipeView/Resources/overlay_skip@3x.png"; sourceTree = "<group>"; };
+		7061DF226FEB412E599221B26C267D4A /* overlay_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "overlay_like@3x.png"; path = "TinderSwipeView/Resources/overlay_like@3x.png"; sourceTree = "<group>"; };
+		7BF5D90F080AE214082D3B585F348765 /* TinderSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TinderSwipeView.framework; path = TinderSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8662D5C5BCA35133555DFE78C0CEA09F /* Pods-TinderSwipeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderSwipeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		891317DB3CF0F18E945F900EB32C035F /* Pods_TinderSwipeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderSwipeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9103E7C7020A5FF45530DB80008F282E /* TinderSwipeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TinderSwipeView.xcconfig; sourceTree = "<group>"; };
+		8F57013DE5CBAB82F9F6B78B8E4E5A18 /* TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
 		91E055C06341834C5C2A61176AE0C234 /* Pods-TinderSwipeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TinderSwipeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A564C1F34322EF9182E5D9EB477C30F1 /* ic_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@3x.png"; path = "TinderSwipeView/Resources/ic_skip@3x.png"; sourceTree = "<group>"; };
-		A84F3A9268F845B99EDAD578CC6D9970 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
-		AF7B97135FFD3D837C5BD16C26F03C50 /* overlay_skip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_skip.png; path = TinderSwipeView/Resources/overlay_skip.png; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B396E94D9A093454FED1DF9759CD7320 /* Pods-TinderSwipeView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TinderSwipeView_Example-Info.plist"; sourceTree = "<group>"; };
-		C56362AAA58901419197156E3BC30E48 /* TinderSwipeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-prefix.pch"; sourceTree = "<group>"; };
+		B44ED027BEAA9E216B53B940B51ABE15 /* ic_skip@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@3x.png"; path = "TinderSwipeView/Resources/ic_skip@3x.png"; sourceTree = "<group>"; };
+		B99F71D7CA2D573334D5518BA7C07557 /* ic_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@3x.png"; path = "TinderSwipeView/Resources/ic_like@3x.png"; sourceTree = "<group>"; };
+		BC680B881EA816081D9FC03728E8CABD /* TinderSwipeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = TinderSwipeView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C46A03F6BDA52601D28420CD46199D7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C9C4DCBED45E434246866798C474DA06 /* Pods-TinderSwipeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TinderSwipeView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CAD047C78BDEDAB4615816CAB638C216 /* TinderSwipeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TinderSwipeView.modulemap; sourceTree = "<group>"; };
-		CE57ED622C28CA6DC998CFEFBB099087 /* ic_like@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@2x.png"; path = "TinderSwipeView/Resources/ic_like@2x.png"; sourceTree = "<group>"; };
 		CFD05525ADEAD2914A7610EB3E046BC4 /* Pods-TinderSwipeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TinderSwipeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		E7C1FB07F5F80667BC70D0F930323D06 /* ic_skip@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_skip@2x.png"; path = "TinderSwipeView/Resources/ic_skip@2x.png"; sourceTree = "<group>"; };
+		D85923C5F6C234CFA07FDD3D67C8DD1C /* ic_like@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@2x.png"; path = "TinderSwipeView/Resources/ic_like@2x.png"; sourceTree = "<group>"; };
+		D9FE6EF06EEB13A1213266D44A8A36D5 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist"; sourceTree = "<group>"; };
 		E9CE492FF94789705F0CED1DB117824F /* Pods-TinderSwipeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TinderSwipeView_Example.modulemap"; sourceTree = "<group>"; };
-		EBC462D2442773A9811DB30E0950F1D7 /* TinderSwipeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TinderSwipeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2107CFBB700D7D2F578DB39D607096F /* TinderSwipeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TinderSwipeView-umbrella.h"; sourceTree = "<group>"; };
-		FAAF5AA08B3DA5A428505D5ECA7A4325 /* ic_like@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "ic_like@3x.png"; path = "TinderSwipeView/Resources/ic_like@3x.png"; sourceTree = "<group>"; };
+		F444C5C9A01F1C79F847BF74A120951B /* overlay_skip.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = overlay_skip.png; path = TinderSwipeView/Resources/overlay_skip.png; sourceTree = "<group>"; };
+		F61C035193EDEAD79DEFC55B3B55A425 /* TinderSwipeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TinderSwipeView.swift; path = TinderSwipeView/Classes/TinderSwipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5142EA04AF8F187799E92886E1AAD5FD /* Frameworks */ = {
+		027DB03E303AB00F12DD6BDE4202A593 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A6F0841837788F7F0ED31C5C694668 /* Foundation.framework in Frameworks */,
+				B815F5E6C539C96555C4149B709FB635 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB671EDAC2D5DA552368945C6DCA37B3 /* Frameworks */ = {
+		06742F35530E78CFFF9E55CE99C0D356 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				921666577A05523915C92136AA1012C2 /* Foundation.framework in Frameworks */,
+				D72040510364650AC48E9274F8218498 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CA7437C73A841E91E70B1AA9D41AC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2C699C1A47F7D0801E23474CAB80E0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9FE6EF06EEB13A1213266D44A8A36D5 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */,
+				3115EFF4D513BAE199EA9E38F2E0A38D /* TinderSwipeView.modulemap */,
+				3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */,
+				221B57EDDA922027E7553D4BB924060A /* TinderSwipeView-dummy.m */,
+				8F57013DE5CBAB82F9F6B78B8E4E5A18 /* TinderSwipeView-Info.plist */,
+				5BA36450AD0DE4CDC289207116FA54EA /* TinderSwipeView-prefix.pch */,
+				6292AD2991963542CDADD3B083E27E2F /* TinderSwipeView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TinderSwipeView";
+			sourceTree = "<group>";
+		};
+		2911F6C421490F5A5B34F34AE8D5086F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51FBBEE8D7DA243A0F8BEB6E39C8EF6E /* TinderSwipeView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3A0E16A5D903DC0077B462836A0787B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				891317DB3CF0F18E945F900EB32C035F /* Pods_TinderSwipeView_Example.framework */,
-				EBC462D2442773A9811DB30E0950F1D7 /* TinderSwipeView.framework */,
+				20261C18A0AFB0AAD32E011C1CD03414 /* Pods_TinderSwipeView_Example.framework */,
+				5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */,
+				7BF5D90F080AE214082D3B585F348765 /* TinderSwipeView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D8A6D1FEFF9FFA145888A3FE4B53E5D /* Resources */ = {
+		51FBBEE8D7DA243A0F8BEB6E39C8EF6E /* TinderSwipeView */ = {
 			isa = PBXGroup;
 			children = (
-				CE57ED622C28CA6DC998CFEFBB099087 /* ic_like@2x.png */,
-				FAAF5AA08B3DA5A428505D5ECA7A4325 /* ic_like@3x.png */,
-				E7C1FB07F5F80667BC70D0F930323D06 /* ic_skip@2x.png */,
-				A564C1F34322EF9182E5D9EB477C30F1 /* ic_skip@3x.png */,
-				5C8D63E0E40931A00452E5419F0DD2D7 /* overlay_like.png */,
-				69FC83C14A4A95CF63C43AEE12A5094D /* overlay_like@3x.png */,
-				AF7B97135FFD3D837C5BD16C26F03C50 /* overlay_skip.png */,
-				6700175C7EA9BFE5CA93636939DFCE94 /* overlay_skip@3x.png */,
+				1CAC215AFD8383A3C4953652BC06BC8D /* TinderCard.swift */,
+				F61C035193EDEAD79DEFC55B3B55A425 /* TinderSwipeView.swift */,
+				FB10234750F5B794CAF207C882687EE4 /* Pod */,
+				C9D98DDF739BB7463FE14B7F4B7C9700 /* Resources */,
+				1B2C699C1A47F7D0801E23474CAB80E0 /* Support Files */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		538F826F66A326354E6C1919AC37B03F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A84F3A9268F845B99EDAD578CC6D9970 /* ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist */,
-				CAD047C78BDEDAB4615816CAB638C216 /* TinderSwipeView.modulemap */,
-				9103E7C7020A5FF45530DB80008F282E /* TinderSwipeView.xcconfig */,
-				515ACA6F7F23D5032A70557343BCD825 /* TinderSwipeView-dummy.m */,
-				1B41B8B517DAB3CC5A0004E8A37183BB /* TinderSwipeView-Info.plist */,
-				C56362AAA58901419197156E3BC30E48 /* TinderSwipeView-prefix.pch */,
-				F2107CFBB700D7D2F578DB39D607096F /* TinderSwipeView-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TinderSwipeView";
-			sourceTree = "<group>";
-		};
-		6C17AF8EED4925738DAED09F36C5DA2D /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FE2F910E777E634334BF66FC6F795B1D /* TinderSwipeView */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
+			name = TinderSwipeView;
+			path = "/Users/saish98/Documents/GitHub/TinderSwipeView-Saish";
+			sourceTree = "<absolute>";
 		};
 		724C89F388C8CC4FC0BF452A95B3C2A0 /* Targets Support Files */ = {
 			isa = PBXGroup;
@@ -151,12 +177,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C9D98DDF739BB7463FE14B7F4B7C9700 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D85923C5F6C234CFA07FDD3D67C8DD1C /* ic_like@2x.png */,
+				B99F71D7CA2D573334D5518BA7C07557 /* ic_like@3x.png */,
+				27B1676DA4262DB86FB17EB2F1FE4DA3 /* ic_skip@2x.png */,
+				B44ED027BEAA9E216B53B940B51ABE15 /* ic_skip@3x.png */,
+				3E8DBBC4A4A03054CF51C12D111241FC /* overlay_like.png */,
+				7061DF226FEB412E599221B26C267D4A /* overlay_like@3x.png */,
+				F444C5C9A01F1C79F847BF74A120951B /* overlay_skip.png */,
+				65BCF1515CE279846D074AE0E99C97E8 /* overlay_skip@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2911F6C421490F5A5B34F34AE8D5086F /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				6C17AF8EED4925738DAED09F36C5DA2D /* Pods */,
 				3A0E16A5D903DC0077B462836A0787B7 /* Products */,
 				724C89F388C8CC4FC0BF452A95B3C2A0 /* Targets Support Files */,
 			);
@@ -187,74 +228,91 @@
 			path = "Target Support Files/Pods-TinderSwipeView_Example";
 			sourceTree = "<group>";
 		};
-		FE2F910E777E634334BF66FC6F795B1D /* TinderSwipeView */ = {
+		FB10234750F5B794CAF207C882687EE4 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4484B62634BAA76E1005A24B42675458 /* TinderCard.swift */,
-				5C13CC0B68663828615E1D335DB4D6E3 /* TinderSwipeView.swift */,
-				4D8A6D1FEFF9FFA145888A3FE4B53E5D /* Resources */,
-				538F826F66A326354E6C1919AC37B03F /* Support Files */,
+				0230162D36E81473324D61DC35972EA2 /* LICENSE */,
+				C46A03F6BDA52601D28420CD46199D7C /* README.md */,
+				BC680B881EA816081D9FC03728E8CABD /* TinderSwipeView.podspec */,
 			);
-			path = TinderSwipeView;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		57D84C3B2F573EC007C11770C594140D /* Headers */ = {
+		2544C93B0484E6EFAD1EFD1C085125E8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBA6968A1E1081358C147FCAF3CB1267 /* Pods-TinderSwipeView_Example-umbrella.h in Headers */,
+				A6422CD7BB7F0F111F158D7C51A2242F /* Pods-TinderSwipeView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E693D1285DE8F181B25D77F602B9AFF0 /* Headers */ = {
+		F2DE1A53EDAF59145494FFD4D06F1A86 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68D08965ABF88C4C55B77CAF785EB36A /* TinderSwipeView-umbrella.h in Headers */,
+				6ED3EF3E027C05CC715EAFC02C095959 /* TinderSwipeView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */ = {
+		48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9D75CE07D4B2A3A8C9AB537BB0A53C3 /* Build configuration list for PBXNativeTarget "TinderSwipeView" */;
+			buildConfigurationList = 6371E9890C90AB319F9B09EA24F0F7F8 /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */;
 			buildPhases = (
-				E693D1285DE8F181B25D77F602B9AFF0 /* Headers */,
-				DED36B49A6F5A5A884F29AC48D9EEF17 /* Sources */,
-				CB671EDAC2D5DA552368945C6DCA37B3 /* Frameworks */,
-				0591D62EE306D3652D6F60D44A5FE334 /* Resources */,
+				8DE64D00164FB20C96C3C83736B2EA4E /* Sources */,
+				81CA7437C73A841E91E70B1AA9D41AC0 /* Frameworks */,
+				E650E139A7A563D25086D30EDC57350A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
+			name = "TinderSwipeView-TinderSwipeView";
+			productName = "TinderSwipeView-TinderSwipeView";
+			productReference = 5E6D4F9931F54A217DA89C62EAAE1FAA /* TinderSwipeView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E58C0A0F42D7048863911F95968D3FA8 /* Build configuration list for PBXNativeTarget "TinderSwipeView" */;
+			buildPhases = (
+				F2DE1A53EDAF59145494FFD4D06F1A86 /* Headers */,
+				8FAB9ED9A1B2E04DFB2AC2869771CEF3 /* Sources */,
+				027DB03E303AB00F12DD6BDE4202A593 /* Frameworks */,
+				7EAEA54DAB76730A91FC08DBEE025479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27E5230E2D083E67BA7EE315243AF5F0 /* PBXTargetDependency */,
+			);
 			name = TinderSwipeView;
 			productName = TinderSwipeView;
-			productReference = EBC462D2442773A9811DB30E0950F1D7 /* TinderSwipeView.framework */;
+			productReference = 7BF5D90F080AE214082D3B585F348765 /* TinderSwipeView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D8EDA909197846266BEBE2862C441C77 /* Pods-TinderSwipeView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7E4B4EA922877644AEDC0DB739B1DC56 /* Build configuration list for PBXNativeTarget "Pods-TinderSwipeView_Example" */;
+			buildConfigurationList = D8A0C8CCB30AA241AF08617A5C4F0E85 /* Build configuration list for PBXNativeTarget "Pods-TinderSwipeView_Example" */;
 			buildPhases = (
-				57D84C3B2F573EC007C11770C594140D /* Headers */,
-				86947DCBA748FE4F199FC7A3613BFDAB /* Sources */,
-				5142EA04AF8F187799E92886E1AAD5FD /* Frameworks */,
-				9A6CEB6FF357E1CA57AF5393B8233CC4 /* Resources */,
+				2544C93B0484E6EFAD1EFD1C085125E8 /* Headers */,
+				96BBF3955AAB43A54638109786AE76AC /* Sources */,
+				06742F35530E78CFFF9E55CE99C0D356 /* Frameworks */,
+				6C41A48F3B85A276ADE1ED32BD2335A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3DF34503ACF8D66F9DF158E771F4D5C2 /* PBXTargetDependency */,
+				E89549D25C9098E7B6D956E8AAAFE869 /* PBXTargetDependency */,
 			);
 			name = "Pods-TinderSwipeView_Example";
 			productName = "Pods-TinderSwipeView_Example";
-			productReference = 891317DB3CF0F18E945F900EB32C035F /* Pods_TinderSwipeView_Example.framework */;
+			productReference = 20261C18A0AFB0AAD32E011C1CD03414 /* Pods_TinderSwipeView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -263,8 +321,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -280,69 +338,99 @@
 			targets = (
 				D8EDA909197846266BEBE2862C441C77 /* Pods-TinderSwipeView_Example */,
 				D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */,
+				48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0591D62EE306D3652D6F60D44A5FE334 /* Resources */ = {
+		6C41A48F3B85A276ADE1ED32BD2335A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F696B19A90BED3BDC7E7F2D40AB38CB /* ic_like@2x.png in Resources */,
-				E7973FE780FB2B4DC9ECFA093C5FF870 /* ic_like@3x.png in Resources */,
-				98DC16644C6CCBCBF907D2DCE59515AA /* ic_skip@2x.png in Resources */,
-				B67CA33C67B3F709268A81CEBCEF3A70 /* ic_skip@3x.png in Resources */,
-				560897DE14D12DBAD00B92352164FECA /* overlay_like.png in Resources */,
-				EE6618620B0FC17B4ED547561D817037 /* overlay_like@3x.png in Resources */,
-				4C3F6E723914A41A0D6517199D298DAF /* overlay_skip.png in Resources */,
-				C942DF9F8FAB011E0A84F7ECD0768766 /* overlay_skip@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A6CEB6FF357E1CA57AF5393B8233CC4 /* Resources */ = {
+		7EAEA54DAB76730A91FC08DBEE025479 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75CC1BCB4A5F6FB95BE0D26EB4A6019A /* ic_like@2x.png in Resources */,
+				FED951C0887781661FA7D3C207D43731 /* ic_like@3x.png in Resources */,
+				99D2C9B16F08783C9517FB32E50623C4 /* ic_skip@2x.png in Resources */,
+				0CEB13819016E9AA2C4B4CA8B04ADA86 /* ic_skip@3x.png in Resources */,
+				07BD0877D28A0DE81132E605B29630A5 /* overlay_like.png in Resources */,
+				0BE4A49831AD2F2C289632F67BC175BD /* overlay_like@3x.png in Resources */,
+				E12593659213819C150064D23C38541D /* overlay_skip.png in Resources */,
+				100383DD2577706C52052ABB996F55D8 /* overlay_skip@3x.png in Resources */,
+				724AC2EB9562CEE185C671B1FBFE62FC /* TinderSwipeView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E650E139A7A563D25086D30EDC57350A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DFD05F7CF48108E791D06160C0F243 /* ic_like@2x.png in Resources */,
+				62436CC0636633CE5C9CB30C5554CA6C /* ic_like@3x.png in Resources */,
+				C4541DDA77E52245B7482B0587BABED5 /* ic_skip@2x.png in Resources */,
+				27E8982E0F1213FB0882F083D802FA18 /* ic_skip@3x.png in Resources */,
+				3462D5F4F910F21FB102D296B2ED3CC2 /* overlay_like.png in Resources */,
+				F5B74A4F68DE5F32EC71030B5F16D13E /* overlay_like@3x.png in Resources */,
+				2706180AEDA8739760D9DEC32FB07745 /* overlay_skip.png in Resources */,
+				4FE6013D113B3B430094891A4F6BF9C0 /* overlay_skip@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		86947DCBA748FE4F199FC7A3613BFDAB /* Sources */ = {
+		8DE64D00164FB20C96C3C83736B2EA4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D958AFCED69EA3F12FABAF27748C14 /* Pods-TinderSwipeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DED36B49A6F5A5A884F29AC48D9EEF17 /* Sources */ = {
+		8FAB9ED9A1B2E04DFB2AC2869771CEF3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83AEB55D9925A4506442E30B788EC5D7 /* TinderCard.swift in Sources */,
-				74D19C51691D4072A71A083ED5AE2D22 /* TinderSwipeView-dummy.m in Sources */,
-				BBDC7CDEF1E01DA79801E13EF73AFF34 /* TinderSwipeView.swift in Sources */,
+				6C33A70B1474FED92504492E2172B7E1 /* TinderCard.swift in Sources */,
+				0D5A14B3D3D829414D3690D070147A3B /* TinderSwipeView-dummy.m in Sources */,
+				10A1CCF9A671ED50692D5FBEB358FAA8 /* TinderSwipeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BBF3955AAB43A54638109786AE76AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060F75B843F7661822A0DDBE159BB119 /* Pods-TinderSwipeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3DF34503ACF8D66F9DF158E771F4D5C2 /* PBXTargetDependency */ = {
+		27E5230E2D083E67BA7EE315243AF5F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TinderSwipeView-TinderSwipeView";
+			target = 48CF6737F3CCFB614C0F0807088B2AF8 /* TinderSwipeView-TinderSwipeView */;
+			targetProxy = 0A0B5ABB50F9D3B449D5E1CB1FCC8221 /* PBXContainerItemProxy */;
+		};
+		E89549D25C9098E7B6D956E8AAAFE869 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TinderSwipeView;
 			target = D7F092F2CAB7938B95539F1B9897A5CE /* TinderSwipeView */;
-			targetProxy = 256EEA5007A97C2D102E2F228C4074EF /* PBXContainerItemProxy */;
+			targetProxy = A23AA8C647028E774A673F0ED37C2261 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3A71CE75E1962E041A8D82D7CADB774A /* Release */ = {
+		620D65AE49B75A952C56306D97557A41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9103E7C7020A5FF45530DB80008F282E /* TinderSwipeView.xcconfig */;
+			baseConfigurationReference = 3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -371,6 +459,86 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		7F177454637D11D9005F095D8D1D089C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TinderSwipeView/TinderSwipeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/TinderSwipeView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TinderSwipeView/TinderSwipeView.modulemap";
+				PRODUCT_MODULE_NAME = TinderSwipeView;
+				PRODUCT_NAME = TinderSwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8CF74BFA4DF59F0920E7F6858E7743D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TinderSwipeView";
+				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TinderSwipeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A07ED85948F12858E33FEBD774E21D87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8662D5C5BCA35133555DFE78C0CEA09F /* Pods-TinderSwipeView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TinderSwipeView_Example/Pods-TinderSwipeView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TinderSwipeView_Example/Pods-TinderSwipeView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -425,7 +593,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -495,7 +664,7 @@
 			};
 			name = Debug;
 		};
-		CE6C720199B20BB906DDEA9168005EC6 /* Release */ = {
+		D4EDF1B1DC740B78DD39E304924B0FA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C9C4DCBED45E434246866798C474DA06 /* Pods-TinderSwipeView_Example.release.xcconfig */;
 			buildSettings = {
@@ -529,69 +698,21 @@
 			};
 			name = Release;
 		};
-		F421D15F6B9DA06E1CAEB6084080EC8D /* Debug */ = {
+		E1CFA74E52989E93E92F83972D44FA5E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9103E7C7020A5FF45530DB80008F282E /* TinderSwipeView.xcconfig */;
+			baseConfigurationReference = 3D9DD9351892EB33CF6F98ACB80BCADA /* TinderSwipeView.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/TinderSwipeView/TinderSwipeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/TinderSwipeView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TinderSwipeView";
+				INFOPLIST_FILE = "Target Support Files/TinderSwipeView/ResourceBundle-TinderSwipeView-TinderSwipeView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TinderSwipeView/TinderSwipeView.modulemap";
-				PRODUCT_MODULE_NAME = TinderSwipeView;
 				PRODUCT_NAME = TinderSwipeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
-		};
-		F48C8A26334B40EC325138DA6EE58B50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8662D5C5BCA35133555DFE78C0CEA09F /* Pods-TinderSwipeView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-TinderSwipeView_Example/Pods-TinderSwipeView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TinderSwipeView_Example/Pods-TinderSwipeView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -605,20 +726,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7E4B4EA922877644AEDC0DB739B1DC56 /* Build configuration list for PBXNativeTarget "Pods-TinderSwipeView_Example" */ = {
+		6371E9890C90AB319F9B09EA24F0F7F8 /* Build configuration list for PBXNativeTarget "TinderSwipeView-TinderSwipeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F48C8A26334B40EC325138DA6EE58B50 /* Debug */,
-				CE6C720199B20BB906DDEA9168005EC6 /* Release */,
+				8CF74BFA4DF59F0920E7F6858E7743D2 /* Debug */,
+				E1CFA74E52989E93E92F83972D44FA5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9D75CE07D4B2A3A8C9AB537BB0A53C3 /* Build configuration list for PBXNativeTarget "TinderSwipeView" */ = {
+		D8A0C8CCB30AA241AF08617A5C4F0E85 /* Build configuration list for PBXNativeTarget "Pods-TinderSwipeView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F421D15F6B9DA06E1CAEB6084080EC8D /* Debug */,
-				3A71CE75E1962E041A8D82D7CADB774A /* Release */,
+				A07ED85948F12858E33FEBD774E21D87 /* Debug */,
+				D4EDF1B1DC740B78DD39E304924B0FA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E58C0A0F42D7048863911F95968D3FA8 /* Build configuration list for PBXNativeTarget "TinderSwipeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F177454637D11D9005F095D8D1D089C /* Debug */,
+				620D65AE49B75A952C56306D97557A41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
