@@ -45,7 +45,7 @@ class CustomView: UIView {
     private func attributeStringForModel(userModel:UserModel) -> NSAttributedString{
         
         let attributedText = NSMutableAttributedString(string: userModel.name, attributes: [.foregroundColor: UIColor.white,.font:UIFont.boldSystemFont(ofSize: 25)])
-        attributedText.append(NSAttributedString(string: "\nnums :\(userModel.num!) - (nib view)" , attributes: [.foregroundColor: UIColor.white,.font:UIFont.systemFont(ofSize: 18)]))
+        attributedText.append(NSAttributedString(string: "\n\(userModel.num!)" , attributes: [.foregroundColor: UIColor.white,.font:UIFont.systemFont(ofSize: 17)]))
         return attributedText
     }
 

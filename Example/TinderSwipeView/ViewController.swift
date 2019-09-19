@@ -8,6 +8,13 @@
 
 let names = ["Adam Gontier","Matt Walst","Brad Walst","Neil Sanderson","Barry Stock","Nicky Patson"]
 
+let type = ["iOS Developer",
+            "Android Developer",
+            "Backend Developer",
+            "Frontend Developer",
+            "Full Stack Developer",
+            "Product Owner"]
+
 import UIKit
 import TinderSwipeView
 
@@ -29,12 +36,17 @@ class ViewController: UIViewController {
     let userModels : [UserModel] =  {
         var model : [UserModel] = []
         for n in 1...30 {
-            model.append(UserModel(name: names[Int(arc4random_uniform(UInt32(names.count)))], num: "\(n)"))
+            model.append(UserModel(name: names[Int(arc4random_uniform(UInt32(names.count)))], num: type[Int(arc4random_uniform(UInt32(type.count)))]))
         }
         return model
     }()
     
-
+    @IBOutlet weak var buttonUndo: UIButton! {
+        didSet{
+            self.buttonUndo.layer.cornerRadius = 5.0
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,16 +54,16 @@ class ViewController: UIViewController {
         let contentView: (Int, CGRect, UserModel) -> (UIView) = { (index: Int ,frame: CGRect , userModel: UserModel) -> (UIView) in
             
             // Programitcally creating content view
-            if index % 2 != 0 {
-                return self.programticViewForOverlay(frame: frame, userModel: userModel)
-            }
-            // loading contentview from nib 
-            else{
+//            if index % 2 != 0 {
+//                return self.programticViewForOverlay(frame: frame, userModel: userModel)
+//            }
+            // loading contentview from nib
+//            else{
                 let customView = CustomView(frame: frame)
                 customView.userModel = userModel
                 customView.buttonAction.addTarget(self, action: #selector(self.customViewButtonSelected), for: UIControl.Event.touchUpInside)
                 return customView
-            }
+//            }
         }
                 
         swipeView = TinderSwipeView<UserModel>(frame: viewContainer.bounds, contentView: contentView)
