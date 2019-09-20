@@ -39,7 +39,7 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpu-Iy-osB" userLabel="SwipeView">
-                                <rect key="frame" x="41.5" y="114" width="331" height="538"/>
+                                <rect key="frame" x="26.5" y="114" width="331" height="538"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sg8-Ru-cEd">
                                         <rect key="frame" x="24" y="237" width="283.5" height="64.5"/>
@@ -112,7 +112,7 @@
                             <constraint firstItem="x8Z-fJ-3IK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EPz-tq-5ez"/>
                             <constraint firstItem="Fpu-Iy-osB" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Hwy-Ed-ulJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QRT-9P-Qth" secondAttribute="bottom" id="Sa4-NM-nrk"/>
-                            <constraint firstItem="Fpu-Iy-osB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Tst-Vq-rCD"/>
+                            <constraint firstItem="Fpu-Iy-osB" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" constant="-15" id="Tst-Vq-rCD"/>
                             <constraint firstItem="x8Z-fJ-3IK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="ZEx-Cf-R66"/>
                             <constraint firstItem="Fpu-Iy-osB" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-70" id="aj9-jt-WZ3"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="myi-qN-G97" secondAttribute="trailing" id="dnK-cX-Bqz"/>

@@ -82,7 +82,7 @@ class TinderCard: UIView {
      * Card goes right method
      */
     func cardGoesRight() {
-        
+        print("Right")
         delegate?.cardGoesRight(card: self)
         let finishPoint = CGPoint(x: frame.size.width*2, y: 2 * yCenter + originalPoint.y)
         UIView.animate(withDuration: 0.5, animations: {
@@ -97,7 +97,7 @@ class TinderCard: UIView {
      * Card goes left method
      */
     func cardGoesLeft() {
-        
+        print("Left")
         delegate?.cardGoesLeft(card: self)
         let finishPoint = CGPoint(x: -frame.size.width*2, y: 2 * yCenter + originalPoint.y)
         UIView.animate(withDuration: 0.5, animations: {

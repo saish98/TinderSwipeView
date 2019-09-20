@@ -2,6 +2,6 @@ use_frameworks!
 
 target 'TinderSwipeView_Example' do
 
-  pod 'TinderSwipeView', :path => '/Users/saish98/Documents/GitHub/TinderSwipeView-Saish'
+  pod 'TinderSwipeView', :path => '/Users/saish98/Documents/GitHub/TinderSwipeView-Saish', :commit => 'f2dfb09721f7f18ed982a08bd519e02e51fb17ca'
 #  pod 'TinderSwipeView', :git => 'https://github.com/saish98/TinderSwipeView.git', :branch => 'saish98/ui-changes'
 end
