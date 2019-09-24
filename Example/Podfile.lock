@@ -6,12 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   TinderSwipeView:
-    :commit: 9d004541881fc7cd8088773102f603f9adc5c4ba
     :path: "/Users/saish98/Documents/GitHub/TinderSwipeView-Saish"
 
 SPEC CHECKSUMS:
   TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: a46777b1f02d07a1e3f7a929f78b1738f8b88010
+PODFILE CHECKSUM: fdaaefa236cb44fbec8541adc6b0909804c30955
 
 COCOAPODS: 1.7.5
