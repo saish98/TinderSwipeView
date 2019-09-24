@@ -2,15 +2,22 @@ PODS:
   - TinderSwipeView (1.1.8)
 
 DEPENDENCIES:
-  - TinderSwipeView (from `/Users/saish98/Documents/GitHub/TinderSwipeView-Saish`)
+  - TinderSwipeView (from `https://github.com/saish98/TinderSwipeView.git`, commit `f1e526e42520e41c9b084a92b920472d3828ea12`, branch `saish98/ui-changes`)
 
 EXTERNAL SOURCES:
   TinderSwipeView:
-    :path: "/Users/saish98/Documents/GitHub/TinderSwipeView-Saish"
+    :branch: saish98/ui-changes
+    :commit: f1e526e42520e41c9b084a92b920472d3828ea12
+    :git: https://github.com/saish98/TinderSwipeView.git
+
+CHECKOUT OPTIONS:
+  TinderSwipeView:
+    :commit: 2a59776bf3da4c56d0adbbfc76fc4961cd4e6102
+    :git: https://github.com/saish98/TinderSwipeView.git
 
 SPEC CHECKSUMS:
   TinderSwipeView: 13e7de167edb6b9883b398878a0e36e3633e01a0
 
-PODFILE CHECKSUM: fdaaefa236cb44fbec8541adc6b0909804c30955
+PODFILE CHECKSUM: f7d306474368a228b83622ebce3d0a9e0a262a40
 
 COCOAPODS: 1.7.5
